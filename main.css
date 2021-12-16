@@ -13,11 +13,18 @@ a:hover{
     text-decoration: none;
 }
 
+img{
+    border-radius:30%;
+    width: 20px;
+}
+
 .header-container {
     display: flex;
+    flex-direction: column;
 }
 
 .title-container {
+    width: 100%;
     padding: 1em;
     text-align: center;
     display: flex;
@@ -30,11 +37,14 @@ a:hover{
 }
 
 .contact-container {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .content-container {
+    width: 100%;
     display: flex;
+    flex-direction: row;
 }
 
